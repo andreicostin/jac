@@ -1,0 +1,32 @@
+@import 'variables';
+
+.header {
+  background: map-get($colours, grey);
+}
+
+.btn-primary {
+  background-color: map-get($colours, primary);
+  border-color: map-get($colours, primary);
+}
+
+.nav-pills {
+  .nav-link {
+    color: map-get($colours, primary);
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+
+    &:hover,
+    &.router-link-exact-active {
+      color: map-get($colours, primary);;
+      border-bottom: 2px solid map-get($colours, primary);;
+    }
+  }
+}
+
+h1, h2, h3, h4, h5 {
+  color: map-get($colours, primary);;
+}
+
+h1 {
+  font-size: 24px;
+}
