@@ -15,14 +15,14 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
-
 ### Lints and fixes files
 ```
 npm run lint
+```
+
+# Project URL
+```
+https://jac-test-519b9.firebaseapp.com/
 ```
 
 # JAC Technical Test
@@ -51,7 +51,7 @@ The jobs are as follows:
 + We need to be able to add new jobs to the system-how that is done is unimportant right now.
 + For the purposes of this part of the test, user emails do not need to be validated.
 + The page should have at least basic styling.  We typically use bootstrap, but this is not mandatory.  Do not worry about
-    branding for this part of the test. 
+    branding for this part of the test.
 
 ## Submitting your work
 
@@ -59,7 +59,7 @@ This is intended to test your ability to understand and model a typical problem 
 approach to working.  It should typically take four to eight hours to complete the task.
 
 Ensure your work is committed to a git repo and either send us that repo or share it with us from the hosted git of your choice
-(we use GitHub).  Please also ensure your code is tested and has instructions on how to run it. 
+(we use GitHub).  Please also ensure your code is tested and has instructions on how to run it.
 
 ## Our tech stack
 

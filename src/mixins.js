@@ -4,6 +4,9 @@ const mixIn = {
       today: new Date()
     }
   },
+  created () {
+    document.title = 'Judicial Appointemnt Commision'
+  },
   beforeCreate () {
     this.$store.dispatch('setJobs')
   },
