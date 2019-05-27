@@ -1,5 +1,20 @@
 # jac
 
+## Explaining the project content
+It contains 3 pages:
+HOME - where you can show interest in future jobs
+LIST - where you can show interest in future jobs
+APPLICATIONS - where you can see a list of applications made
+
+The Applications Open date is calculated from 28th of May.
+
+Because I had a bit of unclarity on how the main page should work I created 2 versions of the page:
+1. HOME - where you can only apply to a job at a time. It contains an input field and a select box to select from the list of jobs
+2. LIST - where you can apply for multiple jobs at a time. It contains an input field and a list of jobs.
+
+The third page is the APPLICATIONS page where it lists the current applications made, no older than 90 days after the closing date of each job
+
+
 ## Project setup
 ```
 npm install
@@ -24,6 +39,8 @@ npm run lint
 ```
 https://jac-test-519b9.firebaseapp.com/
 ```
+
+
 
 # JAC Technical Test
 The baseline technical test for developers interested in working for the Judicial Appointments Commission
