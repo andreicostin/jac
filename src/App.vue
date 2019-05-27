@@ -1,29 +1,22 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
+    <b-container fluid>
+      <b-row class="header justify-content-center pt-3 pb-3">
+        <img alt="Vue logo" src="@/assets/logo.svg">
+      </b-row>
+      <b-row class="header justify-content-center">
+        <b-nav pills align="center">
+          <b-nav-item :to="{ name: 'home' }">Home</b-nav-item>
+          <b-nav-item :to="{ name: 'list' }">List</b-nav-item>
+          <b-nav-item :to="{ name: 'applications' }">Applications</b-nav-item>
+        </b-nav>
+      </b-row>
+      <b-row align-h="center">
+        <router-view />
+      </b-row>
+    </b-container>
   </div>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
 </style>
